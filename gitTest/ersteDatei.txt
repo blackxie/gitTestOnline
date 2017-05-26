@@ -1,0 +1,74 @@
+hier ist der text aus der 2. branch über uschi eingefuegt
+hier ist der text aus der 1. branch über Uschi eingefuegt
+hallo uschi
+hier ist der text aus der 1. branch unter Uschi eingefuegt und weiter und weiter und weiter
+hallo peter
+hallo horst
+hier ist der text aus der 2. branch unter horst eingefuegt
+hier ist der text aus der 1. branch unter horst eingefuegt und weiter und weiter und weiter
+
+
+ich arbeite hier weiter, weil ich nicht weiss das es einen conflict gab.
+
+
+hier arbeite ich ganz fleissig und werde nicht Adden oder commiten, ich werde die branch wechseln um was zu kopieren. alles MIT absichtlichen conflict.
+
+
+
+das ist eine Zeile aus feature_1 die ich nicht geadded habe und nicht commitet habe. 
+
+
+
+
+
+diese Zeile aus feature_1 werde ich adden, aber nicht commiten
+
+
+
+
+hier arbeite ich ganz fleissig und werde nicht Adden oder commiten, ich werde die branch wechseln um was zu kopieren. alles ohne absichtlichen conflict.
+
+
+
+git checkout -- <filename>
+dieser Text wird bleiben, wenn ich add und commite?
+dieser Text wird bleiben, wenn ich adde?
+
+
+
+Konsolen Befehle:
+
+
+
+pwd
+/Users/ramona    // was, wenn das nicht die Antwort ist?
+
+
+cd Desktop/
+mkdir gitTesting2
+cd gitTesting2/
+git init
+touch testDatei.txt
+
+TODO
+// bitte gehe in die Datei und schreibe eine Zeile lang wiedererkennbaren Text. Am ende soll sowas wie oben rauskommen. z.B. erste Zeile
+
+git add testDatei.txt 
+git commit -m 'first file'
+git checkout -b feature_1
+git branch feature_2
+
+
+
+an dieser Stelle hast du das Grundgerüst 
+
+git checkout feature_1
+
+TODO
+mache die Datei auf und ändere die bestehende erste Zeile. schliesse die Datei wieder! wichtig!
+
+git add testDatei.txt 
+git commit -m 'erste aenderung in feature_1'
+git checkout feature_2
+
+
